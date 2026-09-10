@@ -1,3 +1,7 @@
+// Exceeded requirements:
+// Added additional custom prompts beyond the required five prompts to enhance the variety of prompts.
+// This provides more variety and improves the journal  experience.
+
 using System;
 
 class Program

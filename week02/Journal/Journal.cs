@@ -28,8 +28,6 @@ public class Journal
                 outputFile.WriteLine($"{entry._date}|{entry._promptText}|{entry._entryText}");
             }
         }
-
-        Console.WriteLine("Journal saved successfully.");
     }
 
     public void LoadFromFile(string file)
@@ -49,7 +47,5 @@ public class Journal
 
             _entries.Add(entry);
         }
-
-        Console.WriteLine("Journal loaded successfully.");
     }
 }
